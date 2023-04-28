@@ -77,24 +77,15 @@ PM_START_TEX = """
 
 PM_START_TEXT = """ 
 
-👀𝐇𝐞𝐲 {} , [🖤](https://graph.org/file/d874fc40ddf9ead0cad6b.jpg)
+👀𝐇𝐞𝐲 {} , [🖤]({})
 
-╔══❰🌺𝐖𝐄𝐋𝐂𝐎𝐌𝐄🌺❱═══❍⊱❁۪۪
-║
-║┣⪼ {} 
-║
-╚═════════════════❍⊱❁۪۪
-      ╔═════ஜ۩۞۩ஜ════╗
-
-       ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗩𝗜𝗣 𝗕𝗢𝗬♨️
-    
-      ╚═════ஜ۩۞۩ஜ════╝
+═❰🌺𝐖𝐄𝐋𝐂𝐎𝐌𝐄🌺❱═
 
 🌹𝐈 𝐀𝐦 𝐀𝐧 📀 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 🎭 𝐀𝐧𝐝 🌱 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 🌼 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 ♨️ 𝐀𝐧𝐝 🍒 𝐕𝐂 🍄 𝐏𝐥𝐚𝐲𝐞𝐫 📣 𝐖𝐢𝐭𝐡 🕙 24𝐱7 🌀 𝐀𝐜𝐭𝐢𝐯𝐞 » 𝐅𝐨𝐫 🗨️ 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 ♨️ 𝐆𝐫𝐨𝐮𝐩𝐬  🎸 𝐀𝐧𝐝 🏓  𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🎻
 
 💐𝐅𝐞𝐞𝐥 😍 𝐋𝐚𝐠 📍 𝐅𝐫𝐞𝐞 😇 𝐓𝐨 🕊️ 𝐀𝐝𝐝 𝐌𝐞 𝐈𝐧 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 🤖 𝐀𝐧𝐝 🩸 𝐄𝐧𝐣𝐨𝐲 ❥︎ 𝐒𝐮𝐩𝐞𝐫 💥 𝐇𝐢𝐠𝐡 💫 𝐐𝐮𝐚𝐥𝐢𝐭𝐲 ⚡ 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠-𝐆𝐫𝐨𝐮𝐩 &   𝐏𝐥𝐚𝐲 🦞 𝐀𝐮𝐝𝐢𝐨 🎧 𝐀𝐧𝐝 🔊 𝐕𝐢𝐝𝐞𝐨 🌷
 
-☆...................τɦє νเρ Βσყ..................☆ 
+☆...................𝐓𝐀𝐈𝐓𝐀𝐍 𝐆𝐀𝐌𝐄𝐑..................☆ 
 """
 
 buttons = [
@@ -109,11 +100,11 @@ buttons = [
         InlineKeyboardButton(text="🍷𝐌𝐔𝐒𝐈𝐂🍷", callback_data="Music_"),
     ],
     [
-        InlineKeyboardButton(text="🌷𝐆𝐑𝐎𝐔𝐏🌷", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="🏡𝐎𝐅𝐅𝐈𝐂𝐄🏡", url=f"https://t.me/VIP_CREATORS"),
+        InlineKeyboardButton(text="🌷𝐆𝐑𝐎𝐔𝐏🌷", url=f"https://t.me/timepassgroup01"),
+        InlineKeyboardButton(text="🏡𝐒𝐔𝐏𝐏𝐎𝐑𝐓🏡", url=f"https://t.me/Dangerous_fighter_clan_0"),
     ],
     [
-        InlineKeyboardButton(text="🌱𝐒𝐎𝐔𝐑𝐂𝐄🌱", callback_data="mukesh_"),
+        InlineKeyboardButton(text="🌱𝐎𝐖𝐍𝐄𝐑🌱" url=f"https://t.me/taitangamerzz,"),
     ],
 ]
 
@@ -246,7 +237,7 @@ def start(update: Update, context: CallbackContext):
             lol.delete()
             
             update.effective_message.reply_text(
-                PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
+                PM_START_TEXT.format(escape_markdown(first_name), (START_IMG), BOT_NAME),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
@@ -405,11 +396,11 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="📍𝐎𝐖𝐍𝐄𝐑📍", url=f"https://t.me/THE_VIP_BOY"
+                            text="📍𝐎𝐖𝐍𝐄𝐑📍", url=f"https://t.me/taitangamerzz"
                         ),
                         InlineKeyboardButton(
                             text="🎄𝐑𝐄𝐏𝐎🎄", 
-                            url="https://github.com/THE-VIP-BOY-OP/VIP-ROBOT",
+                            url="𝐒𝐎𝐑𝐑𝐘 𝐌𝐀𝐃𝐄𝐑𝐂𝐇𝐎𝐓 𝐍𝐈𝐊𝐀𝐋 𝐑𝐄𝐏𝐎 𝐍𝐇𝐈 𝐇𝐀",
                         ),
                     ],
                     [
@@ -421,7 +412,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     elif query.data == "mukesh_back":
         first_name = update.effective_user.first_name 
         query.message.edit_text(
-            PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
+            PM_START_TEXT.format(escape_markdown(first_name), (START_IMG), BOT_NAME),
             reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN,
             timeout=60,
@@ -526,7 +517,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /queue : sʜᴏᴡs ᴛʜᴇ ǫᴜᴇᴜᴇᴅ ᴛʀᴀᴄᴋs ʟɪsᴛ.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -551,7 +542,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /authusers : sʜᴏᴡs ᴛʜᴇ ᴀᴜᴛʜ ᴜsᴇʀs ʟɪsᴛ ᴏғ ᴛʜᴇ ɢʀᴏᴜᴩ.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -585,7 +576,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /blockedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -614,7 +605,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 ᴇxᴀᴍᴩʟᴇ: /broadcast -user -assistant -pin ᴛᴇsᴛɪɴɢ ʙʀᴏᴀᴅᴄᴀsᴛ
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -637,7 +628,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /gbannedusers : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ɢʟᴏʙᴀʟʟʏ ʙᴀɴɴᴇʀ ᴜsᴇʀs.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -667,7 +658,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /shayri , /love , /gf , /bf : 𝙶𝙴𝚃 𝚂𝙷𝙰𝚈𝚁𝙸 𝙵𝙾𝚁 𝙲𝙾𝚄𝙿𝙻𝙴𝚂
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -690,7 +681,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /play : sᴛᴀʀᴛs ᴩʟᴀʏɪɴɢ ғʀᴏᴍ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴩʟᴀʏʟɪsᴛ ᴏɴ sᴇʀᴠᴇʀ.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -711,7 +702,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 /activevideo : sʜᴏᴡs ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏᴄʜᴀᴛs ᴏɴ ʙᴏᴛ.
 /autoend [ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ] : ᴇɴᴀʙʟᴇ sᴛʀᴇᴀᴍ ᴀᴜᴛᴏ ᴇɴᴅ ɪғ ɴᴏ ᴏɴᴇ ɪs ʟɪsᴛᴇɴɪɴɢ.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -738,7 +729,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀ ɢʀᴏᴜᴩ ᴀɴᴅ sᴛᴀʀᴛs sᴛʀᴇᴀᴍɪɴɢ ᴛʀᴀᴄᴋs ʙʏ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴄᴏᴍᴍᴀɴᴅs sᴇɴᴛ ɪɴ ɢʀᴏᴜᴩ.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -774,7 +765,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 /logs [ɴᴜᴍʙᴇʀ ᴏғ ʟɪɴᴇs] : ɢᴇᴛ ʟᴏɢs ᴏғ ʏᴏᴜʀ ʙᴏᴛ [ᴅᴇғᴀᴜʟᴛ ᴠᴀʟᴜᴇ ɪs 100 ʟɪɴᴇs]
 
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -801,7 +792,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /sudolist : sʜᴏᴡs ᴛʜᴇ sᴜᴅᴏ ᴜsᴇʀs ᴏғ ᴍᴜsɪᴄ ʙᴏᴛ.
 
-☆............𝙱𝚈 » [𝚅𝙸𝙿 𝙱𝙾𝚈](https://t.me/the_vip_boy)............☆""",
+☆............𝙱𝚈 » [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)............☆""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -815,7 +806,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
     elif query.data == "Music_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
-            PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
+            PM_START_TEXT.format(escape_markdown(first_name), (START_IMG), BOT_NAME),
             reply_markup=InlineKeyboardMarkup(buttons),
             parse_mode=ParseMode.MARKDOWN,
             timeout=60,
@@ -1115,7 +1106,7 @@ def main():
 
 ╔═════ஜ۩۞۩ஜ═════╗
 
-  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [𝗩𝗜𝗣 𝗕𝗢𝗬](https://t.me/the_vip_boy)♨️
+  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 [♛ 𝐎𝐖𝐍𝐄𝐑 ♛](https://t.me/taitangamerzz)♨️
   
 ╚═════ஜ۩۞۩ஜ═════╝
 """,
@@ -1160,7 +1151,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    LOGGER.info("🌱𝐁𝐎𝐓🌷𝐒𝐓𝐀𝐑𝐓𝐄𝐃🌺𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐔🌱\n\n╔═════ஜ۩۞۩ஜ════╗\n\n♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗩𝗜𝗣 𝗕𝗢𝗬♨️\n\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER.info("🌱𝐁𝐎𝐓🌷𝐒𝐓𝐀𝐑𝐓𝐄𝐃🌺𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐔🌱\n\n╔═════ஜ۩۞۩ஜ════╗\n\n♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐓𝐀𝐈𝐓𝐀𝐍 𝐆𝐀𝐌𝐄𝐑𝐙♨️\n\n╚═════ஜ۩۞۩ஜ════╝")
     updater.start_polling(timeout=15, read_latency=4, clean=True)
 
     if len(argv) not in (1, 3, 4):
